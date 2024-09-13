@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #f8f9fa;
+}
+.title {
+  background-color: #343a40;
+  padding: 20px;
+}
+i {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+
+.title .album {
+  color: #fefcf6;
+  text-decoration: none;
+  font-size: 24px;
+  height: 56px;
+}
+
+.preview {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  padding: 3rem;
+}
+
+.preview h2 {
+  font-size: 30px;
+}
+
+.preview .info {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.margin-tp {
+  margin-top: 3rem;
+}
+
+.margin-bt {
+  margin-bottom: 20px;
+}
+
+.margin-bt2 {
+  margin-bottom: 3rem;
+}
+
+.button1 {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #81beff;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.button2 {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #6c757d;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.post-container {
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(66, 66, 66, 0.75);
+  flex: 1 1 calc(30% - 20px);
+}
+
+.post-container img {
+  width: 100%;
+}
+
+.post-container .info-group {
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+}
+
+.post-container .info-group p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.post-container .action-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-container .action-group .btn1 {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #8c9399;
+  margin: 10px;
+  margin-right: 0;
+  padding: 5px 2px;
+}
+
+.post-container .action-group .btn2 {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #8c9399;
+  margin: 10px;
+  margin-left: 0;
+  padding: 5px 2px;
+}
+
+.post-container .action-group .small-text {
+  text-align: end;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
